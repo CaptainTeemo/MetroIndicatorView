@@ -18,7 +18,7 @@ class StatusBar: NSObject {
         willSet {
             if let mainWindow = UIApplication.sharedApplication().keyWindow {
                 if let statusWidow = objc_getAssociatedObject(mainWindow, &StatusBar.kStatusBarWindow) as? StatusWindow {
-                    statusWidow.statusView.setStatusBarColor(self.backgroundColor)
+                    statusWidow.statusView.setStatusBarColor(newValue)
                 }
             }
         }
@@ -104,8 +104,9 @@ class StatusView: UIView {
     }
     
     func setStatusBarColor(color: UIColor) {
-        let windowAlpha: CGFloat = UIApplication.sharedApplication().statusBarStyle == .LightContent ? 0.5 : 1.0
-        self.backgroundColor = color.colorWithAlphaComponent(windowAlpha)
+//        let windowAlpha: CGFloat = UIApplication.sharedApplication().statusBarStyle == .LightContent ? 0.5 : 1.0
+//        self.backgroundColor = color.colorWithAlphaComponent(windowAlpha)
+        self.backgroundColor = color
     }
     
     func setActivityAnimating(animate: Bool) {
