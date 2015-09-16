@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF2722B11BA9C41C004FC64A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2722B01BA9C41C004FC64A /* AppDelegate.swift */; };
+		CF2722B31BA9C41C004FC64A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2722B21BA9C41C004FC64A /* ViewController.swift */; };
+		CF2722B61BA9C41C004FC64A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2722B41BA9C41C004FC64A /* Main.storyboard */; };
+		CF2722B81BA9C41C004FC64A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF2722B71BA9C41C004FC64A /* Assets.xcassets */; };
+		CF2722BB1BA9C41C004FC64A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2722B91BA9C41C004FC64A /* LaunchScreen.storyboard */; };
+		CF2722C61BA9C41C004FC64A /* MetroIndicatorViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2722C51BA9C41C004FC64A /* MetroIndicatorViewTests.swift */; };
+		CF2722D11BA9C41D004FC64A /* MetroIndicatorViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2722D01BA9C41D004FC64A /* MetroIndicatorViewUITests.swift */; };
+		CF2722E01BA9C4F6004FC64A /* MetroIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2722DE1BA9C4F6004FC64A /* MetroIndicatorView.swift */; settings = {ASSET_TAGS = (); }; };
+		CF2722E11BA9C4F6004FC64A /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2722DF1BA9C4F6004FC64A /* StatusView.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF2722C21BA9C41C004FC64A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF2722A51BA9C41C004FC64A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF2722AC1BA9C41C004FC64A;
+			remoteInfo = MetroIndicatorView;
+		};
+		CF2722CD1BA9C41D004FC64A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF2722A51BA9C41C004FC64A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF2722AC1BA9C41C004FC64A;
+			remoteInfo = MetroIndicatorView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF2722AD1BA9C41C004FC64A /* MetroIndicatorView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetroIndicatorView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2722B01BA9C41C004FC64A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF2722B21BA9C41C004FC64A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF2722B51BA9C41C004FC64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF2722B71BA9C41C004FC64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF2722BA1BA9C41C004FC64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF2722BC1BA9C41C004FC64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2722C11BA9C41C004FC64A /* MetroIndicatorViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetroIndicatorViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2722C51BA9C41C004FC64A /* MetroIndicatorViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroIndicatorViewTests.swift; sourceTree = "<group>"; };
+		CF2722C71BA9C41C004FC64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2722CC1BA9C41D004FC64A /* MetroIndicatorViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetroIndicatorViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2722D01BA9C41D004FC64A /* MetroIndicatorViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroIndicatorViewUITests.swift; sourceTree = "<group>"; };
+		CF2722D21BA9C41D004FC64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2722DE1BA9C4F6004FC64A /* MetroIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetroIndicatorView.swift; sourceTree = "<group>"; };
+		CF2722DF1BA9C4F6004FC64A /* StatusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF2722AA1BA9C41C004FC64A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2722BE1BA9C41C004FC64A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2722C91BA9C41D004FC64A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF2722A41BA9C41C004FC64A = {
+			isa = PBXGroup;
+			children = (
+				CF2722AF1BA9C41C004FC64A /* MetroIndicatorView */,
+				CF2722C41BA9C41C004FC64A /* MetroIndicatorViewTests */,
+				CF2722CF1BA9C41D004FC64A /* MetroIndicatorViewUITests */,
+				CF2722AE1BA9C41C004FC64A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF2722AE1BA9C41C004FC64A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF2722AD1BA9C41C004FC64A /* MetroIndicatorView.app */,
+				CF2722C11BA9C41C004FC64A /* MetroIndicatorViewTests.xctest */,
+				CF2722CC1BA9C41D004FC64A /* MetroIndicatorViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF2722AF1BA9C41C004FC64A /* MetroIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				CF2722DE1BA9C4F6004FC64A /* MetroIndicatorView.swift */,
+				CF2722DF1BA9C4F6004FC64A /* StatusView.swift */,
+				CF2722B01BA9C41C004FC64A /* AppDelegate.swift */,
+				CF2722B21BA9C41C004FC64A /* ViewController.swift */,
+				CF2722B41BA9C41C004FC64A /* Main.storyboard */,
+				CF2722B71BA9C41C004FC64A /* Assets.xcassets */,
+				CF2722B91BA9C41C004FC64A /* LaunchScreen.storyboard */,
+				CF2722BC1BA9C41C004FC64A /* Info.plist */,
+			);
+			path = MetroIndicatorView;
+			sourceTree = "<group>";
+		};
+		CF2722C41BA9C41C004FC64A /* MetroIndicatorViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF2722C51BA9C41C004FC64A /* MetroIndicatorViewTests.swift */,
+				CF2722C71BA9C41C004FC64A /* Info.plist */,
+			);
+			path = MetroIndicatorViewTests;
+			sourceTree = "<group>";
+		};
+		CF2722CF1BA9C41D004FC64A /* MetroIndicatorViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF2722D01BA9C41D004FC64A /* MetroIndicatorViewUITests.swift */,
+				CF2722D21BA9C41D004FC64A /* Info.plist */,
+			);
+			path = MetroIndicatorViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF2722AC1BA9C41C004FC64A /* MetroIndicatorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2722D51BA9C41D004FC64A /* Build configuration list for PBXNativeTarget "MetroIndicatorView" */;
+			buildPhases = (
+				CF2722A91BA9C41C004FC64A /* Sources */,
+				CF2722AA1BA9C41C004FC64A /* Frameworks */,
+				CF2722AB1BA9C41C004FC64A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetroIndicatorView;
+			productName = MetroIndicatorView;
+			productReference = CF2722AD1BA9C41C004FC64A /* MetroIndicatorView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF2722C01BA9C41C004FC64A /* MetroIndicatorViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2722D81BA9C41D004FC64A /* Build configuration list for PBXNativeTarget "MetroIndicatorViewTests" */;
+			buildPhases = (
+				CF2722BD1BA9C41C004FC64A /* Sources */,
+				CF2722BE1BA9C41C004FC64A /* Frameworks */,
+				CF2722BF1BA9C41C004FC64A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF2722C31BA9C41C004FC64A /* PBXTargetDependency */,
+			);
+			name = MetroIndicatorViewTests;
+			productName = MetroIndicatorViewTests;
+			productReference = CF2722C11BA9C41C004FC64A /* MetroIndicatorViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF2722CB1BA9C41D004FC64A /* MetroIndicatorViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2722DB1BA9C41D004FC64A /* Build configuration list for PBXNativeTarget "MetroIndicatorViewUITests" */;
+			buildPhases = (
+				CF2722C81BA9C41D004FC64A /* Sources */,
+				CF2722C91BA9C41D004FC64A /* Frameworks */,
+				CF2722CA1BA9C41D004FC64A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF2722CE1BA9C41D004FC64A /* PBXTargetDependency */,
+			);
+			name = MetroIndicatorViewUITests;
+			productName = MetroIndicatorViewUITests;
+			productReference = CF2722CC1BA9C41D004FC64A /* MetroIndicatorViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF2722A51BA9C41C004FC64A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Captain Teemo";
+				TargetAttributes = {
+					CF2722AC1BA9C41C004FC64A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					CF2722C01BA9C41C004FC64A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CF2722AC1BA9C41C004FC64A;
+					};
+					CF2722CB1BA9C41D004FC64A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CF2722AC1BA9C41C004FC64A;
+					};
+				};
+			};
+			buildConfigurationList = CF2722A81BA9C41C004FC64A /* Build configuration list for PBXProject "MetroIndicatorView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF2722A41BA9C41C004FC64A;
+			productRefGroup = CF2722AE1BA9C41C004FC64A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF2722AC1BA9C41C004FC64A /* MetroIndicatorView */,
+				CF2722C01BA9C41C004FC64A /* MetroIndicatorViewTests */,
+				CF2722CB1BA9C41D004FC64A /* MetroIndicatorViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF2722AB1BA9C41C004FC64A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2722BB1BA9C41C004FC64A /* LaunchScreen.storyboard in Resources */,
+				CF2722B81BA9C41C004FC64A /* Assets.xcassets in Resources */,
+				CF2722B61BA9C41C004FC64A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2722BF1BA9C41C004FC64A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2722CA1BA9C41D004FC64A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF2722A91BA9C41C004FC64A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2722B31BA9C41C004FC64A /* ViewController.swift in Sources */,
+				CF2722E01BA9C4F6004FC64A /* MetroIndicatorView.swift in Sources */,
+				CF2722E11BA9C4F6004FC64A /* StatusView.swift in Sources */,
+				CF2722B11BA9C41C004FC64A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2722BD1BA9C41C004FC64A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2722C61BA9C41C004FC64A /* MetroIndicatorViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2722C81BA9C41D004FC64A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2722D11BA9C41D004FC64A /* MetroIndicatorViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF2722C31BA9C41C004FC64A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF2722AC1BA9C41C004FC64A /* MetroIndicatorView */;
+			targetProxy = CF2722C21BA9C41C004FC64A /* PBXContainerItemProxy */;
+		};
+		CF2722CE1BA9C41D004FC64A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF2722AC1BA9C41C004FC64A /* MetroIndicatorView */;
+			targetProxy = CF2722CD1BA9C41D004FC64A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF2722B41BA9C41C004FC64A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF2722B51BA9C41C004FC64A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF2722B91BA9C41C004FC64A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF2722BA1BA9C41C004FC64A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF2722D31BA9C41D004FC64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF2722D41BA9C41D004FC64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF2722D61BA9C41D004FC64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MetroIndicatorView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teemo.MetroIndicatorView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF2722D71BA9C41D004FC64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MetroIndicatorView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teemo.MetroIndicatorView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF2722D91BA9C41D004FC64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MetroIndicatorViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teemo.MetroIndicatorViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetroIndicatorView.app/MetroIndicatorView";
+			};
+			name = Debug;
+		};
+		CF2722DA1BA9C41D004FC64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MetroIndicatorViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teemo.MetroIndicatorViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetroIndicatorView.app/MetroIndicatorView";
+			};
+			name = Release;
+		};
+		CF2722DC1BA9C41D004FC64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MetroIndicatorViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teemo.MetroIndicatorViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MetroIndicatorView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CF2722DD1BA9C41D004FC64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MetroIndicatorViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teemo.MetroIndicatorViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MetroIndicatorView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF2722A81BA9C41C004FC64A /* Build configuration list for PBXProject "MetroIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2722D31BA9C41D004FC64A /* Debug */,
+				CF2722D41BA9C41D004FC64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2722D51BA9C41D004FC64A /* Build configuration list for PBXNativeTarget "MetroIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2722D61BA9C41D004FC64A /* Debug */,
+				CF2722D71BA9C41D004FC64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF2722D81BA9C41D004FC64A /* Build configuration list for PBXNativeTarget "MetroIndicatorViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2722D91BA9C41D004FC64A /* Debug */,
+				CF2722DA1BA9C41D004FC64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF2722DB1BA9C41D004FC64A /* Build configuration list for PBXNativeTarget "MetroIndicatorViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2722DC1BA9C41D004FC64A /* Debug */,
+				CF2722DD1BA9C41D004FC64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF2722A51BA9C41C004FC64A /* Project object */;
+}
